@@ -1,0 +1,16 @@
+[
+{
+  "modid": "SuperClicheUsername_Civilizationcraft",
+  "name": "Civilizationcraft",
+  "description": "Build your own ancient civilization, and advance toward the future!",
+  "version": "0.0.1",
+  "url": "Civilizationcraft.com",
+  "updateUrl": "Civilizationcraft.com",
+  "authorList": [
+    "dude00655 aka SuperClicheUsername",
+    "miner486"
+  ],
+  "credits": "SuperClicheUsername, Miner486, Special Thanks To Pahimar for his tutorials :)",
+  "logoFile": "/mods/SuperClicheUsername_Civilizationcraft/textures/logo/logo.png",
+}
+]
