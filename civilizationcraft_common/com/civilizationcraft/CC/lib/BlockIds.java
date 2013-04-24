@@ -12,6 +12,8 @@ package com.civilizationcraft.CC.lib;
 public class BlockIds
     {
 
-        public static final int ORE_ALUMINUM = 161;
+        public static int ORE_ALUMINUM_DEFUALT = 161;
+
+        public static int ORE_ALUMINUM;
 
     }

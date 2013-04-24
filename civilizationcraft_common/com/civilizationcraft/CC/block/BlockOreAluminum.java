@@ -5,7 +5,6 @@ import net.minecraft.block.material.Material;
 import com.civilizationcraft.CC.Civilizationcraft;
 import com.civilizationcraft.CC.lib.Strings;
 
-
 /**
  * Civilizationcraft
  * 

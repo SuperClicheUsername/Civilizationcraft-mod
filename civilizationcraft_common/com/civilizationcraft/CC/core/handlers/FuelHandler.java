@@ -16,17 +16,13 @@ import cpw.mods.fml.common.IFuelHandler;
 public class FuelHandler implements IFuelHandler
     {
 
-    @Override
-    public int getBurnTime(ItemStack fuel)
-        {
-           /* if(fuel.itemID == Civilizationcraft.CoalCoke.itemID)
-                {
-                    return 1500;
-                }else
-                    {
-                        return 0;
-                    }*/
-            return 0;
-        }
+        @Override
+        public int getBurnTime(ItemStack fuel)
+            {
+                /*
+                 * if(fuel.itemID == Civilizationcraft.CoalCoke.itemID) { return 1500; }else { return 0; }
+                 */
+                return 0;
+            }
 
     }

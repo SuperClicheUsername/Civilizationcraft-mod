@@ -13,7 +13,7 @@ public class Strings
     {
 
         public static final String ORE_ALUMINUM_NAME = "AluminumOre";
-        
+
         public static final String IG_NAME_ALUMINUM_ORE = "Aluminum Ore";
 
     }

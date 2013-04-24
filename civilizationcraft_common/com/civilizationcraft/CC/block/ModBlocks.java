@@ -29,14 +29,14 @@ public class ModBlocks
 
         private static void initClassDeclare()
             {
-                CivBlocks.OreAluminum = new BlockOreAluminum(BlockIds.ORE_ALUMINUM);
+                CivBlocks.OreAluminum = new BlockOreAluminum(BlockIds.ORE_ALUMINUM_DEFUALT);
             }
-        
+
         private static void initGameRegistry()
             {
                 GameRegistry.registerBlock(CivBlocks.OreAluminum, Strings.ORE_ALUMINUM_NAME);
             }
-        
+
         private static void initLanguageRegistry()
             {
                 LanguageRegistry.addName(CivBlocks.OreAluminum, Strings.IG_NAME_ALUMINUM_ORE);
@@ -44,6 +44,6 @@ public class ModBlocks
 
         private static void initBlockRecipes()
             {
-                
+
             }
     }

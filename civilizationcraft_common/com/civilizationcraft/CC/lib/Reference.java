@@ -13,5 +13,6 @@ public class Reference
     {
         public static final String MOD_ID = "SuperClicheUsername_Civilizationcraft";
         public static final String MOD_NAME = "Civilizationcraft";
-        public static final String VERSION = "0.0.3 Pre-Alpha";
+        public static final String VERSION = "0.0.4 Pre-Alpha";
+        public static final String CHANNEL_NAME = MOD_ID;
     }
