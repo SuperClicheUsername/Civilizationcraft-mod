@@ -44,6 +44,6 @@ public class ModBlocks
 
         private static void initBlockRecipes()
             {
-
+                
             }
     }
