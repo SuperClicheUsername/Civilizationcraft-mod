@@ -3,6 +3,8 @@ package com.civilizationcraft.CC;
 import net.minecraft.creativetab.CreativeTabs;
 
 import com.civilizationcraft.CC.block.ModBlocks;
+import com.civilizationcraft.CC.core.handlers.CraftingHandler;
+import com.civilizationcraft.CC.core.handlers.FuelHandler;
 import com.civilizationcraft.CC.creativetab.CreativeTabCiv;
 import com.civilizationcraft.CC.lib.Reference;
 
@@ -13,6 +15,7 @@ import cpw.mods.fml.common.Mod.PreInit;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
 /**
@@ -38,9 +41,12 @@ public class Civilizationcraft
             }
 
         @Init
-        public void Init(FMLInitializationEvent event)
+        public void load(FMLInitializationEvent event)
             {
                 LanguageRegistry.instance().addStringLocalization("itemGroup.SuperClicheUsername_Civilizationcraft", "en_US", "Civilizationcraft");
+                
+                GameRegistry.registerCraftingHandler(new CraftingHandler());
+                GameRegistry.registerFuelHandler(new FuelHandler());
             }
 
         @PostInit

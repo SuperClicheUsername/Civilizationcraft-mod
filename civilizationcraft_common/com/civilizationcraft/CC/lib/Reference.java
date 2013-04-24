@@ -13,5 +13,5 @@ public class Reference
     {
         public static final String MOD_ID = "SuperClicheUsername_Civilizationcraft";
         public static final String MOD_NAME = "Civilizationcraft";
-        public static final String VERSION = "0.0.1 Alpha";
+        public static final String VERSION = "0.0.2 Pre-Alpha";
     }
