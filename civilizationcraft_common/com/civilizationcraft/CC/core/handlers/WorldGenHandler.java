@@ -4,7 +4,11 @@ import java.util.Random;
 
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
-//import net.minecraft.world.gen.feature.WorldGenMinable;
+import net.minecraft.world.gen.feature.WorldGenMinable;
+
+import com.civilizationcraft.CC.lib.CivBlocks;
+import com.civilizationcraft.CC.lib.WorldGenVars;
+
 import cpw.mods.fml.common.IWorldGenerator;
 
 /**
@@ -42,10 +46,16 @@ public class WorldGenHandler implements IWorldGenerator
 
         private void generateSurface(World world, Random random, int chunkX, int chunkZ)
             {
-                /*
-                 * // Aluminum for (int i = 0; i < AluminumSpawnRate; i++) { int xCoord = chunkX + random.nextInt(16); int yCoord = random.nextInt(AluminumSpawnHeight); int zCoord = chunkZ +
-                 * random.nextInt(16); new WorldGenMinable( Civilizationcraft.AluminumOre.blockID, AluminumSpawnVeinSize).generate(world, random, xCoord, yCoord, zCoord); }
-                 */
+
+                // Aluminum
+                for (int i = 0; i < WorldGenVars.SpawnRateAluminum; i++)
+                    {
+                        int xCoord = chunkX + random.nextInt(16);
+                        int yCoord = random.nextInt(WorldGenVars.SpawnHeightAluminum);
+                        int zCoord = chunkZ + random.nextInt(16);
+                        new WorldGenMinable(CivBlocks.OreAluminum.blockID, WorldGenVars.VeinSizeAluminum).generate(world, random, xCoord, yCoord, zCoord);
+                    }
+
             }
 
         private void generateNether(World world, Random random, int chunkX, int chunkZ)

@@ -13,5 +13,6 @@ import net.minecraft.item.Item;
  */
 public class CivItems
     {
+        public static Item IngotAluminum;
         public static Item CoalCoke;
     }

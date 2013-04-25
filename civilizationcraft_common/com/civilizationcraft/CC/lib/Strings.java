@@ -11,9 +11,15 @@ package com.civilizationcraft.CC.lib;
  */
 public class Strings
     {
-
+        //Blocks
         public static final String ORE_ALUMINUM_NAME = "AluminumOre";
 
         public static final String IG_NAME_ALUMINUM_ORE = "Aluminum Ore";
+
+        //Items
+        public static final String INGOT_ALUMINUM_NAME = "AluminumIngot";
+        
+        public static final String IG_NAME_ALUMINUM_INGOT = "Aluminum Ingot";
+
 
     }

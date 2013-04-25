@@ -1,7 +1,9 @@
-package com.civilizationcraft.CC.block;
+package com.civilizationcraft.CC.items;
 
-import com.civilizationcraft.CC.lib.BlockIds;
-import com.civilizationcraft.CC.lib.CivBlocks;
+import net.minecraft.item.Item;
+
+import com.civilizationcraft.CC.lib.CivItems;
+import com.civilizationcraft.CC.lib.ItemIds;
 import com.civilizationcraft.CC.lib.Strings;
 
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -10,40 +12,35 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 /**
  * Civilizationcraft
  * 
- * ModBlocks
+ * ModItems
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
  * 
  */
-public class ModBlocks
+public class ModItems
     {
+        public static Item ingotAluminum;
 
         public static void init()
             {
                 initClassDeclare();
                 initGameRegistry();
                 initLanguageRegistry();
-                initBlockRecipes();
             }
 
         private static void initClassDeclare()
             {
-                CivBlocks.OreAluminum = new BlockOreAluminum(BlockIds.ORE_ALUMINUM);
+                CivItems.IngotAluminum = new ItemIngotAluminum(ItemIds.INGOT_ALUMINUM);
             }
 
         private static void initGameRegistry()
             {
-                GameRegistry.registerBlock(CivBlocks.OreAluminum, Strings.ORE_ALUMINUM_NAME);
+                GameRegistry.registerItem(CivItems.IngotAluminum, Strings.INGOT_ALUMINUM_NAME);
             }
 
         private static void initLanguageRegistry()
             {
-                LanguageRegistry.addName(CivBlocks.OreAluminum, Strings.IG_NAME_ALUMINUM_ORE);
-            }
-
-        private static void initBlockRecipes()
-            {
-
+                LanguageRegistry.addName(CivItems.IngotAluminum, Strings.IG_NAME_ALUMINUM_INGOT);
             }
     }

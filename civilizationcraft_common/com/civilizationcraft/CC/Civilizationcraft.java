@@ -7,7 +7,9 @@ import net.minecraft.creativetab.CreativeTabs;
 import com.civilizationcraft.CC.block.ModBlocks;
 import com.civilizationcraft.CC.configuration.ConfigurationHandler;
 import com.civilizationcraft.CC.core.handlers.FuelHandler;
+import com.civilizationcraft.CC.core.handlers.WorldGenHandler;
 import com.civilizationcraft.CC.creativetab.CreativeTabCiv;
+import com.civilizationcraft.CC.items.ModItems;
 import com.civilizationcraft.CC.lib.Reference;
 
 import cpw.mods.fml.common.Mod;
@@ -43,6 +45,7 @@ public class Civilizationcraft
                 ConfigurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath() + File.separator + Reference.CHANNEL_NAME + File.separator + Reference.MOD_ID + ".cfg"));
 
                 ModBlocks.init();
+                ModItems.init();
 
             }
 
@@ -52,6 +55,7 @@ public class Civilizationcraft
                 LanguageRegistry.instance().addStringLocalization("itemGroup.SuperClicheUsername_Civilizationcraft", "en_US", "Civilizationcraft");
 
                 GameRegistry.registerFuelHandler(new FuelHandler());
+                GameRegistry.registerWorldGenerator(new WorldGenHandler());
             }
 
         @PostInit

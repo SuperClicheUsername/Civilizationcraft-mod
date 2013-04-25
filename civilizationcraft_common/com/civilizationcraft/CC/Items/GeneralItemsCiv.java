@@ -1,21 +1,31 @@
-package com.civilizationcraft.CC.Items;
+package com.civilizationcraft.CC.items;
 
 import net.minecraft.client.renderer.texture.IconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
+import com.civilizationcraft.CC.Civilizationcraft;
 import com.civilizationcraft.CC.lib.Reference;
+
+/**
+ * Civilizationcraft
+ * 
+ * GeneralItemsCiv
+ * 
+ * @author SuperClicheUsername
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
 
 public class GeneralItemsCiv extends Item
     {
         public GeneralItemsCiv(int id)
             {
                 super(id);
-                this.setCreativeTab(CreativeTabs.tabMaterials);
+                setCreativeTab(Civilizationcraft.tabsCiv);
             }
 
         public void registerIcons(IconRegister par1IconRegister)
             {
-                iconIndex = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + this.getUnlocalizedName());
+                iconIndex = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + this.getUnlocalizedName().substring(5));
             }
     }

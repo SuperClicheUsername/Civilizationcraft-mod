@@ -3,15 +3,13 @@ package com.civilizationcraft.CC.lib;
 /**
  * Civilizationcraft
  * 
- * ItemIds
+ * SmeltXP
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
  * 
  */
-public class ItemIds
+public class SmeltXP
     {
-        public static int INGOT_ALUMINUM_DEFAULT = 800;
-        
-        public static int INGOT_ALUMINUM;
+        public static float AluminumOreXP = 1F;
     }

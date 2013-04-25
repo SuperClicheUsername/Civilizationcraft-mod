@@ -3,16 +3,25 @@ package com.civilizationcraft.CC.block;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 
+import com.civilizationcraft.CC.Civilizationcraft;
 import com.civilizationcraft.CC.lib.Reference;
 
+/**
+ * Civilizationcraft
+ * 
+ * GeneralBlockCiv
+ * 
+ * @author SuperClicheUsername
+ * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
+ * 
+ */
 public class GeneralBlockCiv extends Block
     {
         public GeneralBlockCiv(int id, Material par2Material)
             {
                 super(id, par2Material);
-                this.setCreativeTab(CreativeTabs.tabBlock);
+                this.setCreativeTab(Civilizationcraft.tabsCiv);
             }
 
         @Override
