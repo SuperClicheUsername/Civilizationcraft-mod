@@ -12,19 +12,19 @@ import com.civilizationcraft.CC.lib.Strings;
 /**
  * Civilizationcraft
  * 
- * BlockOreAluminum.java
+ * BlockOreChromium.java
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
  * 
  */
-public class BlockOreAluminum extends GeneralBlockCiv
+public class BlockOreChromium extends GeneralBlockCiv
     {
 
-        public BlockOreAluminum(int id)
+        public BlockOreChromium(int id)
             {
                 super(id, Material.rock);
-                setUnlocalizedName(Strings.ORE_ALUMINUM_NAME);
+                setUnlocalizedName(Strings.ORE_CHROMIUM_NAME);
                 setHardness(5F);
                 setResistance(5F);
             }

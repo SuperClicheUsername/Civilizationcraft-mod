@@ -1,3 +1,8 @@
+/**
+ *Apr 23, 2013
+ *4:31:23 PM
+ *2013
+ */
 package com.civilizationcraft.CC.creativetab;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -29,7 +34,6 @@ public class CreativeTabCiv extends CreativeTabs
         @SideOnly(Side.CLIENT)
         public int getTabIconItemIndex()
             {
-
                 return BlockIds.ORE_ALUMINUM;
             }
 

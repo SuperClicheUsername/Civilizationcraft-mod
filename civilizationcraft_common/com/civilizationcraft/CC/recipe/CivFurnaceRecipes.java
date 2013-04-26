@@ -1,3 +1,8 @@
+/**
+ *Apr 25, 2013
+ *3:50:34 PM
+ *2013
+ */
 package com.civilizationcraft.CC.recipe;
 
 import net.minecraft.item.ItemStack;
@@ -10,7 +15,7 @@ import com.civilizationcraft.CC.lib.SmeltXP;
 /**
  * Civilizationcraft
  * 
- * CivFurnaceRecipes
+ * CivFurnaceRecipes.java
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)

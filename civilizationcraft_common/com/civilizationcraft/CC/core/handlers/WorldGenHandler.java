@@ -1,3 +1,8 @@
+/**
+ *Apr 24, 2013
+ *3:45:48 PM
+ *2013
+ */
 package com.civilizationcraft.CC.core.handlers;
 
 import java.util.Random;
@@ -14,7 +19,7 @@ import cpw.mods.fml.common.IWorldGenerator;
 /**
  * Civilizationcraft
  * 
- * WorldGenHandler
+ * WorldGenHandler.java
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)

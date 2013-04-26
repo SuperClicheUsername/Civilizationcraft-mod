@@ -1,3 +1,8 @@
+/**
+ *Apr 25, 2013
+ *4:18:02 PM
+ *2013
+ */
 package com.civilizationcraft.CC.items;
 
 import net.minecraft.item.Item;
@@ -12,7 +17,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 /**
  * Civilizationcraft
  * 
- * ModItems
+ * ModItems.java
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)

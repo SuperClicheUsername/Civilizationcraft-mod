@@ -1,3 +1,8 @@
+/**
+ *Apr 26, 2013
+ *12:16:17 PM
+ *2013
+ */
 package com.civilizationcraft.CC.block;
 
 import net.minecraft.block.Block;
@@ -10,7 +15,7 @@ import com.civilizationcraft.CC.lib.Reference;
 /**
  * Civilizationcraft
  * 
- * GeneralBlockCiv
+ * GeneralBlockCiv.java
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
@@ -21,7 +26,7 @@ public class GeneralBlockCiv extends Block
         public GeneralBlockCiv(int id, Material par2Material)
             {
                 super(id, par2Material);
-                this.setCreativeTab(Civilizationcraft.tabsCiv);
+                setCreativeTab(Civilizationcraft.tabsCiv);
             }
 
         @Override

@@ -1,6 +1,6 @@
 /**
  *Apr 26, 2013
- *12:16:17 PM
+ *12:25:20 PM
  *2013
  */
 package com.civilizationcraft.CC.block;
@@ -12,19 +12,19 @@ import com.civilizationcraft.CC.lib.Strings;
 /**
  * Civilizationcraft
  * 
- * BlockOreAluminum.java
+ * BlockOreZinc.java
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
  * 
  */
-public class BlockOreAluminum extends GeneralBlockCiv
+public class BlockOreZinc extends GeneralBlockCiv
     {
 
-        public BlockOreAluminum(int id)
+        public BlockOreZinc(int id)
             {
                 super(id, Material.rock);
-                setUnlocalizedName(Strings.ORE_ALUMINUM_NAME);
+                setUnlocalizedName(Strings.ORE_ZINC_NAME);
                 setHardness(5F);
                 setResistance(5F);
             }

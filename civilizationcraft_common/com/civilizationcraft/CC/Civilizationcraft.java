@@ -1,3 +1,8 @@
+/**
+ *Apr 23, 2013
+ *4:01:27 PM
+ *2013
+ */
 package com.civilizationcraft.CC;
 
 import java.io.File;
@@ -26,7 +31,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 /**
  * Civilizationcraft
  * 
- * Civilizationcraft
+ * Civilizationcraft.java
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)

@@ -1,3 +1,8 @@
+/**
+ *Apr 25, 2013
+ *12:25:53 PM
+ *2013
+ */
 package com.civilizationcraft.CC.items;
 
 import net.minecraft.client.renderer.texture.IconRegister;
@@ -9,7 +14,7 @@ import com.civilizationcraft.CC.lib.Reference;
 /**
  * Civilizationcraft
  * 
- * GeneralItemsCiv
+ * GeneralItemsCiv.java
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)

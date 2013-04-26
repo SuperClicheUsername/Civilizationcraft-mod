@@ -1,3 +1,8 @@
+/**
+ *Apr 24, 2013
+ *4:02:28 PM
+ *2013
+ */
 package com.civilizationcraft.CC.core.handlers;
 
 import net.minecraft.item.ItemStack;
@@ -6,7 +11,7 @@ import cpw.mods.fml.common.IFuelHandler;
 /**
  * Civilizationcraft
  * 
- * FuelHandler
+ * FuelHandler.java
  * 
  * @author SuperClicheUsername
  * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
