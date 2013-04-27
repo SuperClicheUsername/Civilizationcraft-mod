@@ -47,6 +47,10 @@ public class WorldGenVars
         public static final int SpawnRateMagnesium = 4;
         public static final int SpawnHeightMagnesium = 60;
         public static final int VeinSizeMagnesium = 4;
+        
+        public static final int SpawnRateMithril = 4;
+        public static final int SpawnHeightMithril = 60;
+        public static final int VeinSizeMithril = 4;
 
         public static final int SpawnRateNickel = 4;
         public static final int SpawnHeightNickel = 60;

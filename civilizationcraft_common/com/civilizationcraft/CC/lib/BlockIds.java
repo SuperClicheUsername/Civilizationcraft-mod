@@ -84,5 +84,4 @@ public class BlockIds
         public static int ORE_ZINC_DEFUALT = 177;
 
         public static int ORE_ZINC;
-
     }

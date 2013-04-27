@@ -10,6 +10,7 @@ import java.io.File;
 import net.minecraft.creativetab.CreativeTabs;
 
 import com.civilizationcraft.CC.block.ModBlocks;
+import com.civilizationcraft.CC.block.OreDictionaryRegistration;
 import com.civilizationcraft.CC.configuration.ConfigurationHandler;
 import com.civilizationcraft.CC.core.handlers.FuelHandler;
 import com.civilizationcraft.CC.core.handlers.WorldGenHandler;
@@ -19,6 +20,7 @@ import com.civilizationcraft.CC.lib.Reference;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
+import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.Mod.PostInit;
 import cpw.mods.fml.common.Mod.PreInit;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -41,7 +43,9 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class Civilizationcraft
     {
-
+        @Instance(Reference.MOD_ID)
+        public static Civilizationcraft instance;
+        
         public static CreativeTabs tabsCiv = new CreativeTabCiv(CreativeTabs.getNextID(), Reference.MOD_ID);
 
         @PreInit
@@ -51,6 +55,7 @@ public class Civilizationcraft
 
                 ModBlocks.init();
                 ModItems.init();
+                OreDictionaryRegistration.init();
 
             }
 
