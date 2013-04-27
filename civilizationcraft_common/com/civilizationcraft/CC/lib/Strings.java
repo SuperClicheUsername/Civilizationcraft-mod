@@ -49,6 +49,10 @@ public class Strings
 
         public static final String IG_NAME_MAGNESIUM_ORE = "Magnesium Ore";
         
+        public static final String ORE_MITHRIL_NAME = "MithrilOre";
+        
+        public static final String IG_NAME_MITHRIL_ORE = "Mithril Ore";
+        
         public static final String ORE_NICKEL_NAME = "NickelOre";
 
         public static final String IG_NAME_NICKEL_ORE = "Nickel Ore";

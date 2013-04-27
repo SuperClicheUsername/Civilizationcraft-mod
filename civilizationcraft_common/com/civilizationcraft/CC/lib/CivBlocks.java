@@ -18,6 +18,6 @@ import net.minecraft.block.Block;
  */
 public class CivBlocks
     {
-        public static Block OreAluminum, OreChromium, OreCinnabar, OreCobalt, OreCopper, OreLead, OreLithium, OreMagnesium, OreNickel, OreSilver, OreThorium, OreTin, OreTitanium, OreTungsten,
+        public static Block OreAluminum, OreChromium, OreCinnabar, OreCobalt, OreCopper, OreLead, OreLithium, OreMagnesium, OreMithril, OreNickel, OreSilver, OreThorium, OreTin, OreTitanium, OreTungsten,
                 OreUranium, OreZinc;
     }

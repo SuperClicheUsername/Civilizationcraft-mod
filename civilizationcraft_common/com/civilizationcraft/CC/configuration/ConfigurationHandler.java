@@ -53,6 +53,7 @@ public class ConfigurationHandler
                         BlockIds.ORE_LEAD = config.get(BlockIdSection, Strings.IG_NAME_LEAD_ORE + "Id", BlockIds.ORE_LEAD_DEFUALT).getInt();
                         BlockIds.ORE_LITHIUM = config.get(BlockIdSection, Strings.IG_NAME_LITHIUM_ORE + "Id", BlockIds.ORE_LITHIUM_DEFUALT).getInt();
                         BlockIds.ORE_MAGNESIUM = config.get(BlockIdSection, Strings.IG_NAME_MAGNESIUM_ORE + "Id", BlockIds.ORE_MAGNESIUM_DEFUALT).getInt();
+                        BlockIds.ORE_MITHRIL = config.get(BlockIdSection, Strings.IG_NAME_MITHRIL_ORE + "Id", BlockIds.ORE_MITHRIL_DEFAULT).getInt();
                         BlockIds.ORE_NICKEL = config.get(BlockIdSection, Strings.IG_NAME_NICKEL_ORE + "Id", BlockIds.ORE_NICKEL_DEFUALT).getInt();
                         BlockIds.ORE_SILVER = config.get(BlockIdSection, Strings.IG_NAME_SILVER_ORE + "Id", BlockIds.ORE_SILVER_DEFUALT).getInt();
                         BlockIds.ORE_THORIUM = config.get(BlockIdSection, Strings.IG_NAME_THORIUM_ORE + "Id", BlockIds.ORE_THORIUM_DEFUALT).getInt();
