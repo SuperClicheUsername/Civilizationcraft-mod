@@ -45,23 +45,23 @@ public class ConfigurationHandler
                 try
                     {
                         config.load();
-                        BlockIds.ORE_ALUMINUM = config.get(BlockIdSection, Strings.IG_NAME_ALUMINUM_ORE + "Id", BlockIds.ORE_ALUMINUM_DEFUALT).getInt();
-                        BlockIds.ORE_CHROMIUM = config.get(BlockIdSection, Strings.IG_NAME_CHROMIUM_ORE + "Id", BlockIds.ORE_CHROMIUM_DEFUALT).getInt();
-                        BlockIds.ORE_CINNABAR = config.get(BlockIdSection, Strings.IG_NAME_CINNABAR_ORE + "Id", BlockIds.ORE_CINNABAR_DEFUALT).getInt();
-                        BlockIds.ORE_COBALT = config.get(BlockIdSection, Strings.IG_NAME_COBALT_ORE + "Id", BlockIds.ORE_COBALT_DEFUALT).getInt();
-                        BlockIds.ORE_COPPER = config.get(BlockIdSection, Strings.IG_NAME_COPPER_ORE + "Id", BlockIds.ORE_COPPER_DEFUALT).getInt();
-                        BlockIds.ORE_LEAD = config.get(BlockIdSection, Strings.IG_NAME_LEAD_ORE + "Id", BlockIds.ORE_LEAD_DEFUALT).getInt();
-                        BlockIds.ORE_LITHIUM = config.get(BlockIdSection, Strings.IG_NAME_LITHIUM_ORE + "Id", BlockIds.ORE_LITHIUM_DEFUALT).getInt();
-                        BlockIds.ORE_MAGNESIUM = config.get(BlockIdSection, Strings.IG_NAME_MAGNESIUM_ORE + "Id", BlockIds.ORE_MAGNESIUM_DEFUALT).getInt();
+                        BlockIds.ORE_ALUMINUM = config.get(BlockIdSection, Strings.IG_NAME_ALUMINUM_ORE + "Id", BlockIds.ORE_ALUMINUM_DEFAULT).getInt();
+                        BlockIds.ORE_CHROMIUM = config.get(BlockIdSection, Strings.IG_NAME_CHROMIUM_ORE + "Id", BlockIds.ORE_CHROMIUM_DEFAULT).getInt();
+                        BlockIds.ORE_CINNABAR = config.get(BlockIdSection, Strings.IG_NAME_CINNABAR_ORE + "Id", BlockIds.ORE_CINNABAR_DEFAULT).getInt();
+                        BlockIds.ORE_COBALT = config.get(BlockIdSection, Strings.IG_NAME_COBALT_ORE + "Id", BlockIds.ORE_COBALT_DEFAULT).getInt();
+                        BlockIds.ORE_COPPER = config.get(BlockIdSection, Strings.IG_NAME_COPPER_ORE + "Id", BlockIds.ORE_COPPER_DEFAULT).getInt();
+                        BlockIds.ORE_LEAD = config.get(BlockIdSection, Strings.IG_NAME_LEAD_ORE + "Id", BlockIds.ORE_LEAD_DEFAULT).getInt();
+                        BlockIds.ORE_LITHIUM = config.get(BlockIdSection, Strings.IG_NAME_LITHIUM_ORE + "Id", BlockIds.ORE_LITHIUM_DEFAULT).getInt();
+                        BlockIds.ORE_MAGNESIUM = config.get(BlockIdSection, Strings.IG_NAME_MAGNESIUM_ORE + "Id", BlockIds.ORE_MAGNESIUM_DEFAULT).getInt();
                         BlockIds.ORE_MITHRIL = config.get(BlockIdSection, Strings.IG_NAME_MITHRIL_ORE + "Id", BlockIds.ORE_MITHRIL_DEFAULT).getInt();
-                        BlockIds.ORE_NICKEL = config.get(BlockIdSection, Strings.IG_NAME_NICKEL_ORE + "Id", BlockIds.ORE_NICKEL_DEFUALT).getInt();
-                        BlockIds.ORE_SILVER = config.get(BlockIdSection, Strings.IG_NAME_SILVER_ORE + "Id", BlockIds.ORE_SILVER_DEFUALT).getInt();
-                        BlockIds.ORE_THORIUM = config.get(BlockIdSection, Strings.IG_NAME_THORIUM_ORE + "Id", BlockIds.ORE_THORIUM_DEFUALT).getInt();
-                        BlockIds.ORE_TIN = config.get(BlockIdSection, Strings.IG_NAME_TIN_ORE + "Id", BlockIds.ORE_TIN_DEFUALT).getInt();
-                        BlockIds.ORE_TITANIUM = config.get(BlockIdSection, Strings.IG_NAME_TITANIUM_ORE + "Id", BlockIds.ORE_TITANIUM_DEFUALT).getInt();
-                        BlockIds.ORE_TUNGSTEN = config.get(BlockIdSection, Strings.IG_NAME_TUNGSTEN_ORE + "Id", BlockIds.ORE_TUNGSTEN_DEFUALT).getInt();
-                        BlockIds.ORE_URANIUM = config.get(BlockIdSection, Strings.IG_NAME_URANIUM_ORE + "Id", BlockIds.ORE_URANIUM_DEFUALT).getInt();
-                        BlockIds.ORE_ZINC = config.get(BlockIdSection, Strings.IG_NAME_ZINC_ORE + "Id", BlockIds.ORE_ZINC_DEFUALT).getInt();
+                        BlockIds.ORE_NICKEL = config.get(BlockIdSection, Strings.IG_NAME_NICKEL_ORE + "Id", BlockIds.ORE_NICKEL_DEFAULT).getInt();
+                        BlockIds.ORE_SILVER = config.get(BlockIdSection, Strings.IG_NAME_SILVER_ORE + "Id", BlockIds.ORE_SILVER_DEFAULT).getInt();
+                        BlockIds.ORE_THORIUM = config.get(BlockIdSection, Strings.IG_NAME_THORIUM_ORE + "Id", BlockIds.ORE_THORIUM_DEFAULT).getInt();
+                        BlockIds.ORE_TIN = config.get(BlockIdSection, Strings.IG_NAME_TIN_ORE + "Id", BlockIds.ORE_TIN_DEFAULT).getInt();
+                        BlockIds.ORE_TITANIUM = config.get(BlockIdSection, Strings.IG_NAME_TITANIUM_ORE + "Id", BlockIds.ORE_TITANIUM_DEFAULT).getInt();
+                        BlockIds.ORE_TUNGSTEN = config.get(BlockIdSection, Strings.IG_NAME_TUNGSTEN_ORE + "Id", BlockIds.ORE_TUNGSTEN_DEFAULT).getInt();
+                        BlockIds.ORE_URANIUM = config.get(BlockIdSection, Strings.IG_NAME_URANIUM_ORE + "Id", BlockIds.ORE_URANIUM_DEFAULT).getInt();
+                        BlockIds.ORE_ZINC = config.get(BlockIdSection, Strings.IG_NAME_ZINC_ORE + "Id", BlockIds.ORE_ZINC_DEFAULT).getInt();
 
                         ItemIds.INGOT_ALUMINUM = config.get(ItemIdSection, "Aluminum Ingot Id", ItemIds.INGOT_ALUMINUM_DEFAULT).getInt();
                         // AluminumOreId = config.get("Block IDs", "Aluminum Ore Id", 160).getInt();
