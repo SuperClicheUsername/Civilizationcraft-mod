@@ -5,6 +5,11 @@
  */
 package com.civilizationcraft.CC.items;
 
+import net.minecraft.item.EnumRarity;
+import net.minecraft.item.ItemStack;
+
+import com.civilizationcraft.CC.lib.Strings;
+
 /**
  * Civilizationcraft
  * 
@@ -19,5 +24,13 @@ public class ItemIngotAluminum extends GeneralItemsCiv
         public ItemIngotAluminum(int id)
             {
                 super(id);
+                setUnlocalizedName(Strings.INGOT_ALUMINUM_NAME);
+            }
+
+        @Override
+        public EnumRarity getRarity(ItemStack is)
+            {
+                // Rare = Blue Epic = Purple Uncommon = Yellow Common = White
+                return EnumRarity.rare;
             }
     }
