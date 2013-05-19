@@ -5,8 +5,6 @@
  */
 package com.civilizationcraft.CC.items;
 
-import net.minecraft.item.Item;
-
 import com.civilizationcraft.CC.lib.CivItems;
 import com.civilizationcraft.CC.lib.ItemIds;
 import com.civilizationcraft.CC.lib.Strings;
@@ -25,7 +23,6 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
  */
 public class ModItems
     {
-        public static Item ingotAluminum;
 
         public static void init()
             {
@@ -36,16 +33,16 @@ public class ModItems
 
         private static void initClassDeclare()
             {
-                CivItems.IngotAluminum = new ItemIngotAluminum(ItemIds.INGOT_ALUMINUM);
+                CivItems.ingotAluminum = new ItemIngotAluminum(ItemIds.INGOT_ALUMINUM);
             }
 
         private static void initGameRegistry()
             {
-                GameRegistry.registerItem(CivItems.IngotAluminum, Strings.INGOT_ALUMINUM_NAME);
+                GameRegistry.registerItem(CivItems.ingotAluminum, Strings.INGOT_ALUMINUM_NAME);
             }
 
         private static void initLanguageRegistry()
             {
-                LanguageRegistry.addName(CivItems.IngotAluminum, Strings.IG_NAME_ALUMINUM_INGOT);
+                LanguageRegistry.addName(CivItems.ingotAluminum, Strings.IG_NAME_ALUMINUM_INGOT);
             }
     }

@@ -29,7 +29,6 @@ public class ModBlocks
                 initClassDeclare();
                 initGameRegistry();
                 initLanguageRegistry();
-                initBlockRecipes();
             }
 
         private static void initClassDeclare()
@@ -51,7 +50,6 @@ public class ModBlocks
                 CivBlocks.oreTungsten = new BlockOreTungsten(BlockIds.ORE_TUNGSTEN);
                 CivBlocks.oreUranium = new BlockOreUranium(BlockIds.ORE_URANIUM);
                 CivBlocks.oreZinc = new BlockOreZinc(BlockIds.ORE_ZINC);
-
             }
 
         private static void initGameRegistry()
@@ -94,10 +92,26 @@ public class ModBlocks
                 LanguageRegistry.addName(CivBlocks.oreTungsten, Strings.IG_NAME_TUNGSTEN_ORE);
                 LanguageRegistry.addName(CivBlocks.oreUranium, Strings.IG_NAME_URANIUM_ORE);
                 LanguageRegistry.addName(CivBlocks.oreZinc, Strings.IG_NAME_ZINC_ORE);
-            }
-
-        private static void initBlockRecipes()
-            {
-
+                
+                
+                //MetaData Stuff
+                
+                /*LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 0), Strings.IG_NAME_ALUMINUM_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 1), Strings.IG_NAME_CHROMIUM_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 2), Strings.IG_NAME_CINNABAR_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 3), Strings.IG_NAME_COBALT_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 4), Strings.IG_NAME_COPPER_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 5), Strings.IG_NAME_LEAD_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 6), Strings.IG_NAME_LITHIUM_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 7), Strings.IG_NAME_MAGNESIUM_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 8), Strings.IG_NAME_MITHRIL_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 9), Strings.IG_NAME_NICKEL_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 10), Strings.IG_NAME_SILVER_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 11), Strings.IG_NAME_THORIUM_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 12), Strings.IG_NAME_TIN_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 13), Strings.IG_NAME_TITANIUM_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 14), Strings.IG_NAME_TUNGSTEN_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 15), Strings.IG_NAME_URANIUM_ORE);
+                LanguageRegistry.addName(new ItemStack(CivBlocks.oreBlock, 1, 16), Strings.IG_NAME_ZINC_ORE); */
             }
     }

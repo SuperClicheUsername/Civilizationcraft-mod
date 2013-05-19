@@ -45,7 +45,7 @@ public class Civilizationcraft
     {
         @Instance(Reference.MOD_ID)
         public static Civilizationcraft instance;
-        
+
         public static CreativeTabs tabsCiv = new CreativeTabCiv(CreativeTabs.getNextID(), Reference.MOD_ID);
 
         @PreInit
@@ -56,7 +56,6 @@ public class Civilizationcraft
                 ModBlocks.init();
                 ModItems.init();
                 OreDictionaryRegistration.init();
-
             }
 
         @Init

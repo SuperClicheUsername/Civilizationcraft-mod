@@ -17,7 +17,24 @@ import net.minecraft.item.Item;
  * 
  */
 public class CivItems
-    {
-        public static Item IngotAluminum;
+    {   
+        public static Item ingotAluminum;
+        public static Item ingotChromium;
+        public static Item ingotCinnabar;
+        public static Item ingotCobalt;
+        public static Item ingotCopper;
+        public static Item ingotLead;
+        public static Item ingotLithium;
+        public static Item ingotMagnesium;
+        public static Item ingotMithril;
+        public static Item ingotNickel;
+        public static Item ingotSilver;
+        public static Item ingotThorium;
+        public static Item ingotTin;
+        public static Item ingotTitanium;
+        public static Item ingotTungsten;
+        public static Item ingotUranium;
+        public static Item ingotZinc;
+        
         public static Item CoalCoke;
     }

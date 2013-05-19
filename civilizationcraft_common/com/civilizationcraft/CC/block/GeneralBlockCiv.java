@@ -32,6 +32,6 @@ public class GeneralBlockCiv extends Block
         @Override
         public void registerIcons(IconRegister par1IconRegister)
             {
-                blockIcon = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + this.getUnlocalizedName().substring(5));
+                blockIcon = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + getUnlocalizedName().substring(5));
             }
     }

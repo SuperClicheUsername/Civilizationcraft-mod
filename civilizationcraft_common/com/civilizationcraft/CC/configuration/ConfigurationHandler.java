@@ -63,7 +63,25 @@ public class ConfigurationHandler
                         BlockIds.ORE_URANIUM = config.get(BlockIdSection, Strings.IG_NAME_URANIUM_ORE + "Id", BlockIds.ORE_URANIUM_DEFAULT).getInt();
                         BlockIds.ORE_ZINC = config.get(BlockIdSection, Strings.IG_NAME_ZINC_ORE + "Id", BlockIds.ORE_ZINC_DEFAULT).getInt();
 
-                        ItemIds.INGOT_ALUMINUM = config.get(ItemIdSection, "Aluminum Ingot Id", ItemIds.INGOT_ALUMINUM_DEFAULT).getInt();
+                        ItemIds.INGOT_ALUMINUM = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_ALUMINUM_DEFAULT).getInt();
+                        ItemIds.INGOT_CHROMIUM = config.get(ItemIdSection, Strings.IG_NAME_CHROMIUM_INGOT + "Id", ItemIds.INGOT_CHROMIUM_DEFAULT).getInt();
+                        ItemIds.INGOT_CINNABAR = config.get(ItemIdSection, Strings.IG_NAME_CINNABAR_INGOT + "Id", ItemIds.INGOT_CINNABAR_DEFAULT).getInt();
+                        ItemIds.INGOT_COBALT = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_COBALT_DEFAULT).getInt();
+                        ItemIds.INGOT_COPPER = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_COPPER_DEFAULT).getInt();
+                        ItemIds.INGOT_LEAD = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_LEAD_DEFAULT).getInt();
+                        ItemIds.INGOT_LITHIUM = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_LITHIUM_DEFAULT).getInt();
+                        ItemIds.INGOT_MAGNESIUM = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_MAGNESIUM_DEFAULT).getInt();
+                        ItemIds.INGOT_MITHRIL = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_MITHRIL_DEFAULT).getInt();
+                        ItemIds.INGOT_NICKEL = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_NICKEL_DEFAULT).getInt();
+                        ItemIds.INGOT_SILVER = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_SILVER_DEFAULT).getInt();
+                        ItemIds.INGOT_THORIUM = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_THORIUM_DEFAULT).getInt();
+                        ItemIds.INGOT_TIN = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_TIN_DEFAULT).getInt();
+                        ItemIds.INGOT_TITANIUM = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_TITANIUM_DEFAULT).getInt();
+                        ItemIds.INGOT_TUNGSTEN = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_TUNGSTEN_DEFAULT).getInt();
+                        ItemIds.INGOT_URANIUM = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_URANIUM_DEFAULT).getInt();
+                        ItemIds.INGOT_ZINC = config.get(ItemIdSection, Strings.IG_NAME_ALUMINUM_INGOT + "Id", ItemIds.INGOT_ZINC_DEFAULT).getInt();
+                        
+                        
                         // AluminumOreId = config.get("Block IDs", "Aluminum Ore Id", 160).getInt();
 
                     }
