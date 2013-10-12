@@ -1,7 +1,6 @@
 /**
  *Apr 25, 2013
  *3:50:34 PM
- *2013
  */
 package com.civilizationcraft.CC.recipe;
 

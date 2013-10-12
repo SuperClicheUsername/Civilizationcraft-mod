@@ -1,9 +1,8 @@
 /**
  *Apr 25, 2013
- *12:25:53 PM
- *2013
+ *12:25:53 PMs
  */
-package com.civilizationcraft.CC.items;
+package com.civilizationcraft.CC.Items;
 
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.EnumRarity;
@@ -11,7 +10,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 import com.civilizationcraft.CC.Civilizationcraft;
-import com.civilizationcraft.CC.lib.Reference;
+//import com.civilizationcraft.CC.lib.Reference;
 
 /**
  * Civilizationcraft
@@ -32,7 +31,7 @@ public class GeneralItemsCiv extends Item
 
         public void registerIcons(IconRegister par1IconRegister)
             {
-                iconIndex = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + (this.getUnlocalizedName()));
+                //iconIndex = par1IconRegister.registerIcon(Reference.MOD_ID + ":" + (this.getUnlocalizedName()));
             }
         @Override
         public EnumRarity getRarity(ItemStack is)

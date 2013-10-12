@@ -1,7 +1,6 @@
 /**
  *Apr 27, 2013
  *6:42:09 PM
- *2013
  */
 package com.civilizationcraft.CC.lib;
 

@@ -1,9 +1,8 @@
 /**
  *Apr 24, 2013
  *4:02:28 PM
- *2013
  */
-package com.civilizationcraft.CC.core.handlers;
+package com.civilizationcraft.CC.handlers;
 
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.common.IFuelHandler;

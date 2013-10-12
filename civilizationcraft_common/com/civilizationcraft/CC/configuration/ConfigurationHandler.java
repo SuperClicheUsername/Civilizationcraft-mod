@@ -1,7 +1,6 @@
 /**
  *Apr 25, 2013
  *4:15:34 PM
- *2013
  */
 package com.civilizationcraft.CC.configuration;
 

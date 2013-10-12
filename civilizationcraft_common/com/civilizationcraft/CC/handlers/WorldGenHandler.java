@@ -1,9 +1,8 @@
 /**
  *Apr 24, 2013
  *3:45:48 PM
- *2013
  */
-package com.civilizationcraft.CC.core.handlers;
+package com.civilizationcraft.CC.handlers;
 
 import java.util.Random;
 

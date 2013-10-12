@@ -1,9 +1,8 @@
 /**
  *Apr 25, 2013
  *4:27:05 PM
- *2013
  */
-package com.civilizationcraft.CC.items;
+package com.civilizationcraft.CC.Items;
 
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemStack;
