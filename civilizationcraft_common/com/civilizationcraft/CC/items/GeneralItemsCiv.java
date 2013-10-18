@@ -2,7 +2,7 @@
  *Apr 25, 2013
  *12:25:53 PMs
  */
-package com.civilizationcraft.CC.Items;
+package com.civilizationcraft.CC.items;
 
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.EnumRarity;

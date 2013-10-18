@@ -2,7 +2,7 @@
  *Apr 25, 2013
  *4:18:02 PM
  */
-package com.civilizationcraft.CC.Items;
+package com.civilizationcraft.CC.items;
 
 import com.civilizationcraft.CC.lib.CivItems;
 import com.civilizationcraft.CC.lib.ItemIds;

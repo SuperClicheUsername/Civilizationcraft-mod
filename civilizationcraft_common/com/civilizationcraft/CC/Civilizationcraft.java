@@ -8,13 +8,13 @@ import java.io.File;
 
 import net.minecraft.creativetab.CreativeTabs;
 
-import com.civilizationcraft.CC.Items.ModItems;
 import com.civilizationcraft.CC.block.ModBlocks;
 import com.civilizationcraft.CC.block.OreDictionaryRegistration;
 import com.civilizationcraft.CC.configuration.ConfigurationHandler;
 import com.civilizationcraft.CC.creativetab.CreativeTabCiv;
 import com.civilizationcraft.CC.handlers.FuelHandler;
 import com.civilizationcraft.CC.handlers.WorldGenHandler;
+import com.civilizationcraft.CC.items.ModItems;
 import com.civilizationcraft.CC.lib.Reference;
 import com.civilizationcraft.CC.proxy.CommonProxy;
 
